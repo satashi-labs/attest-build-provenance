@@ -1,0 +1,31 @@
+﻿2025-08-22T01:32:17.7457582Z Current runner version: '2.328.0'
+2025-08-22T01:32:17.7557880Z ##[group]Operating System
+2025-08-22T01:32:17.7559143Z Ubuntu
+2025-08-22T01:32:17.7560016Z 24.04.2
+2025-08-22T01:32:17.7560977Z LTS
+2025-08-22T01:32:17.7561777Z ##[endgroup]
+2025-08-22T01:32:17.7562698Z ##[group]Runner Image
+2025-08-22T01:32:17.7563793Z Image: ubuntu-24.04
+2025-08-22T01:32:17.7564880Z Version: 20250818.1.0
+2025-08-22T01:32:17.7566976Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20250818.1/images/ubuntu/Ubuntu2404-Readme.md
+2025-08-22T01:32:17.7569591Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20250818.1
+2025-08-22T01:32:17.7571235Z ##[endgroup]
+2025-08-22T01:32:17.7572100Z ##[group]Runner Image Provisioner
+2025-08-22T01:32:17.7573296Z 2.0.449.1
+2025-08-22T01:32:17.7574132Z ##[endgroup]
+2025-08-22T01:32:17.7596567Z ##[group]GITHUB_TOKEN Permissions
+2025-08-22T01:32:17.7599344Z Contents: read
+2025-08-22T01:32:17.7600282Z Metadata: read
+2025-08-22T01:32:17.7601187Z Packages: write
+2025-08-22T01:32:17.7602492Z ##[endgroup]
+2025-08-22T01:32:17.7606028Z Secret source: Actions
+2025-08-22T01:32:17.7607463Z Prepare workflow directory
+2025-08-22T01:32:17.8938654Z Prepare all required actions
+2025-08-22T01:32:17.8993695Z Getting action download info
+2025-08-22T01:32:18.2893764Z Download action repository 'actions/checkout@v4' (SHA:08eba0b27e820071cde6df949e0beb9ba4906955)
+2025-08-22T01:32:18.3634596Z Download action repository 'sigstore/cosign-installer@59acb6260d9c0ba8f4a2f9d9b48431a222b68e20' (SHA:59acb6260d9c0ba8f4a2f9d9b48431a222b68e20)
+2025-08-22T01:32:18.6152095Z Download action repository 'docker/setup-buildx-action@f95db51fddba0c2d1ec667646a06c2ce06100226' (SHA:f95db51fddba0c2d1ec667646a06c2ce06100226)
+2025-08-22T01:32:18.9914550Z Download action repository 'docker/login-action@343f7c4344506bcbf9b4de18042ae17996df046d' (SHA:343f7c4344506bcbf9b4de18042ae17996df046d)
+2025-08-22T01:32:19.3647393Z Download action repository 'docker/metadata-action@96383f45573cb7f253c731d3b3ab81c87ef81934' (SHA:96383f45573cb7f253c731d3b3ab81c87ef81934)
+2025-08-22T01:32:19.7572624Z Download action repository 'docker/build-push-action@0565240e2d4ab88bba5387d719585280857ece09' (SHA:0565240e2d4ab88bba5387d719585280857ece09)
+2025-08-22T01:32:20.4558538Z Complete job name: build

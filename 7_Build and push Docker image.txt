@@ -1,0 +1,145 @@
+﻿2025-08-22T01:32:31.5988238Z ##[group]Run docker/build-push-action@0565240e2d4ab88bba5387d719585280857ece09
+2025-08-22T01:32:31.5988615Z with:
+2025-08-22T01:32:31.5988785Z   context: .
+2025-08-22T01:32:31.5988951Z   push: true
+2025-08-22T01:32:31.5989168Z   tags: ghcr.io/satashi-labs/designed-eureka:main
+2025-08-22T01:32:31.5990982Z   labels: org.opencontainers.image.created=2025-08-22T01:32:31.561Z
+org.opencontainers.image.description=quantum coin continuous cash element creation
+org.opencontainers.image.licenses=EPL-2.0
+org.opencontainers.image.revision=ac68e331cd04ab6e733dc111af3a92c20fef429f
+org.opencontainers.image.source=https://github.com/satashi-labs/designed-eureka
+org.opencontainers.image.title=designed-eureka
+org.opencontainers.image.url=https://github.com/satashi-labs/designed-eureka
+org.opencontainers.image.version=main
+2025-08-22T01:32:31.5992743Z   cache-from: type=gha
+2025-08-22T01:32:31.5992943Z   cache-to: type=gha,mode=max
+2025-08-22T01:32:31.5993164Z   load: false
+2025-08-22T01:32:31.5993327Z   no-cache: false
+2025-08-22T01:32:31.5993536Z   pull: false
+2025-08-22T01:32:31.5993838Z   github-token: ***
+2025-08-22T01:32:31.5994015Z env:
+2025-08-22T01:32:31.5994179Z   REGISTRY: ghcr.io
+2025-08-22T01:32:31.5994385Z   IMAGE_NAME: satashi-labs/designed-eureka
+2025-08-22T01:32:31.5994642Z   DOCKER_METADATA_OUTPUT_VERSION: main
+2025-08-22T01:32:31.5994977Z   DOCKER_METADATA_OUTPUT_TAGS: ghcr.io/satashi-labs/designed-eureka:main
+2025-08-22T01:32:31.5997061Z   DOCKER_METADATA_OUTPUT_LABELS: org.opencontainers.image.created=2025-08-22T01:32:31.561Z
+org.opencontainers.image.description=quantum coin continuous cash element creation
+org.opencontainers.image.licenses=EPL-2.0
+org.opencontainers.image.revision=ac68e331cd04ab6e733dc111af3a92c20fef429f
+org.opencontainers.image.source=https://github.com/satashi-labs/designed-eureka
+org.opencontainers.image.title=designed-eureka
+org.opencontainers.image.url=https://github.com/satashi-labs/designed-eureka
+org.opencontainers.image.version=main
+2025-08-22T01:32:31.6000724Z   DOCKER_METADATA_OUTPUT_JSON: {"tags":["ghcr.io/satashi-labs/designed-eureka:main"],"labels":{"org.opencontainers.image.created":"2025-08-22T01:32:31.561Z","org.opencontainers.image.description":"quantum coin continuous cash element creation","org.opencontainers.image.licenses":"EPL-2.0","org.opencontainers.image.revision":"ac68e331cd04ab6e733dc111af3a92c20fef429f","org.opencontainers.image.source":"https://github.com/satashi-labs/designed-eureka","org.opencontainers.image.title":"designed-eureka","org.opencontainers.image.url":"https://github.com/satashi-labs/designed-eureka","org.opencontainers.image.version":"main"}}
+2025-08-22T01:32:31.6002952Z   DOCKER_METADATA_OUTPUT_BAKE_FILE: /tmp/docker-actions-toolkit-SzAeWZ/docker-metadata-action-bake.json
+2025-08-22T01:32:31.6003389Z ##[endgroup]
+2025-08-22T01:32:31.7497769Z ##[group]GitHub Actions runtime token ACs
+2025-08-22T01:32:31.7514072Z refs/heads/main: read/write
+2025-08-22T01:32:31.7527865Z ##[endgroup]
+2025-08-22T01:32:31.7530172Z ##[group]Docker info
+2025-08-22T01:32:31.7594403Z [command]/usr/bin/docker version
+2025-08-22T01:32:31.7799560Z Client: Docker Engine - Community
+2025-08-22T01:32:31.7801145Z  Version:           28.0.4
+2025-08-22T01:32:31.7802523Z  API version:       1.48
+2025-08-22T01:32:31.7803926Z  Go version:        go1.23.7
+2025-08-22T01:32:31.7805280Z  Git commit:        b8034c0
+2025-08-22T01:32:31.7806322Z  Built:             Tue Mar 25 15:07:16 2025
+2025-08-22T01:32:31.7807608Z  OS/Arch:           linux/amd64
+2025-08-22T01:32:31.7807971Z  Context:           default
+2025-08-22T01:32:31.7808195Z 
+2025-08-22T01:32:31.7808337Z Server: Docker Engine - Community
+2025-08-22T01:32:31.7808688Z  Engine:
+2025-08-22T01:32:31.7808946Z   Version:          28.0.4
+2025-08-22T01:32:31.7809312Z   API version:      1.48 (minimum version 1.24)
+2025-08-22T01:32:31.7809756Z   Go version:       go1.23.7
+2025-08-22T01:32:31.7810087Z   Git commit:       6430e49
+2025-08-22T01:32:31.7810473Z   Built:            Tue Mar 25 15:07:16 2025
+2025-08-22T01:32:31.7810856Z   OS/Arch:          linux/amd64
+2025-08-22T01:32:31.7811611Z   Experimental:     false
+2025-08-22T01:32:31.7811936Z  containerd:
+2025-08-22T01:32:31.7812220Z   Version:          1.7.27
+2025-08-22T01:32:31.7812647Z   GitCommit:        05044ec0a9a75232cad458027ca83437aae3f4da
+2025-08-22T01:32:31.7813112Z  runc:
+2025-08-22T01:32:31.7813380Z   Version:          1.2.5
+2025-08-22T01:32:31.7813715Z   GitCommit:        v1.2.5-0-g59923ef
+2025-08-22T01:32:31.7814106Z  docker-init:
+2025-08-22T01:32:31.7814391Z   Version:          0.19.0
+2025-08-22T01:32:31.7814731Z   GitCommit:        de40ad0
+2025-08-22T01:32:31.7856499Z [command]/usr/bin/docker info
+2025-08-22T01:32:31.8849666Z Client: Docker Engine - Community
+2025-08-22T01:32:31.8857255Z  Version:    28.0.4
+2025-08-22T01:32:31.8858046Z  Context:    default
+2025-08-22T01:32:31.8861207Z  Debug Mode: false
+2025-08-22T01:32:31.8863029Z  Plugins:
+2025-08-22T01:32:31.8863819Z   buildx: Docker Buildx (Docker Inc.)
+2025-08-22T01:32:31.8868420Z     Version:  v0.26.1
+2025-08-22T01:32:31.8868896Z     Path:     /usr/libexec/docker/cli-plugins/docker-buildx
+2025-08-22T01:32:31.8869435Z   compose: Docker Compose (Docker Inc.)
+2025-08-22T01:32:31.8869837Z     Version:  v2.38.2
+2025-08-22T01:32:31.8870230Z     Path:     /usr/libexec/docker/cli-plugins/docker-compose
+2025-08-22T01:32:31.8870583Z 
+2025-08-22T01:32:31.8870687Z Server:
+2025-08-22T01:32:31.8870942Z  Containers: 1
+2025-08-22T01:32:31.8871222Z   Running: 1
+2025-08-22T01:32:31.8871495Z   Paused: 0
+2025-08-22T01:32:31.8871743Z   Stopped: 0
+2025-08-22T01:32:31.8871984Z  Images: 1
+2025-08-22T01:32:31.8872256Z  Server Version: 28.0.4
+2025-08-22T01:32:31.8872559Z  Storage Driver: overlay2
+2025-08-22T01:32:31.8872872Z   Backing Filesystem: extfs
+2025-08-22T01:32:31.8873225Z   Supports d_type: true
+2025-08-22T01:32:31.8873552Z   Using metacopy: false
+2025-08-22T01:32:31.8873891Z   Native Overlay Diff: false
+2025-08-22T01:32:31.8874238Z   userxattr: false
+2025-08-22T01:32:31.8874582Z  Logging Driver: json-file
+2025-08-22T01:32:31.8874922Z  Cgroup Driver: systemd
+2025-08-22T01:32:31.8875255Z  Cgroup Version: 2
+2025-08-22T01:32:31.8875527Z  Plugins:
+2025-08-22T01:32:31.8876019Z   Volume: local
+2025-08-22T01:32:31.8876411Z   Network: bridge host ipvlan macvlan null overlay
+2025-08-22T01:32:31.8877069Z   Log: awslogs fluentd gcplogs gelf journald json-file local splunk syslog
+2025-08-22T01:32:31.8877657Z  Swarm: inactive
+2025-08-22T01:32:31.8878003Z  Runtimes: io.containerd.runc.v2 runc
+2025-08-22T01:32:31.8878429Z  Default Runtime: runc
+2025-08-22T01:32:31.8878747Z  Init Binary: docker-init
+2025-08-22T01:32:31.8879205Z  containerd version: 05044ec0a9a75232cad458027ca83437aae3f4da
+2025-08-22T01:32:31.8879722Z  runc version: v1.2.5-0-g59923ef
+2025-08-22T01:32:31.8880105Z  init version: de40ad0
+2025-08-22T01:32:31.8880418Z  Security Options:
+2025-08-22T01:32:31.8880724Z   apparmor
+2025-08-22T01:32:31.8880996Z   seccomp
+2025-08-22T01:32:31.8881266Z    Profile: builtin
+2025-08-22T01:32:31.8881965Z   cgroupns
+2025-08-22T01:32:31.8882263Z  Kernel Version: 6.11.0-1018-azure
+2025-08-22T01:32:31.8882705Z  Operating System: Ubuntu 24.04.2 LTS
+2025-08-22T01:32:31.8883182Z  OSType: linux
+2025-08-22T01:32:31.8883503Z  Architecture: x86_64
+2025-08-22T01:32:31.8883829Z  CPUs: 2
+2025-08-22T01:32:31.8884117Z  Total Memory: 7.758GiB
+2025-08-22T01:32:31.8884467Z  Name: fv-az1699-577
+2025-08-22T01:32:31.8884841Z  ID: 1c1cbb44-b30d-44d5-842a-37462128d90e
+2025-08-22T01:32:31.8885299Z  Docker Root Dir: /var/lib/docker
+2025-08-22T01:32:31.8885694Z  Debug Mode: false
+2025-08-22T01:32:31.8886288Z  Username: githubactions
+2025-08-22T01:32:31.8886664Z  Experimental: false
+2025-08-22T01:32:31.8887004Z  Insecure Registries:
+2025-08-22T01:32:31.8887353Z   ::1/128
+2025-08-22T01:32:31.8887627Z   127.0.0.0/8
+2025-08-22T01:32:31.8887924Z  Live Restore Enabled: false
+2025-08-22T01:32:31.8888176Z 
+2025-08-22T01:32:31.8896722Z ##[endgroup]
+2025-08-22T01:32:31.8898336Z ##[group]Proxy configuration
+2025-08-22T01:32:31.8898792Z No proxy configuration found
+2025-08-22T01:32:31.8899403Z ##[endgroup]
+2025-08-22T01:32:31.9564528Z ##[group]Buildx version
+2025-08-22T01:32:31.9615178Z [command]/usr/bin/docker buildx version
+2025-08-22T01:32:32.0196777Z github.com/docker/buildx v0.26.1 1a8287f22cf5a38339a4c1bf432b803c5f8b2aae
+2025-08-22T01:32:32.0232357Z ##[endgroup]
+2025-08-22T01:32:32.4828036Z [command]/usr/bin/docker buildx build --cache-from type=gha --cache-to type=gha,mode=max --iidfile /tmp/docker-actions-toolkit-koz1XZ/iidfile --label org.opencontainers.image.created=2025-08-22T01:32:31.561Z --label org.opencontainers.image.description=quantum coin continuous cash element creation --label org.opencontainers.image.licenses=EPL-2.0 --label org.opencontainers.image.revision=ac68e331cd04ab6e733dc111af3a92c20fef429f --label org.opencontainers.image.source=https://github.com/satashi-labs/designed-eureka --label org.opencontainers.image.title=designed-eureka --label org.opencontainers.image.url=https://github.com/satashi-labs/designed-eureka --label org.opencontainers.image.version=main --tag ghcr.io/satashi-labs/designed-eureka:main --metadata-file /tmp/docker-actions-toolkit-koz1XZ/metadata-file --push .
+2025-08-22T01:32:32.6284350Z #0 building with "builder-3420edc8-be29-43fd-b429-e3e2974a7152" instance using docker-container driver
+2025-08-22T01:32:32.6285115Z 
+2025-08-22T01:32:32.6285312Z #1 [internal] load build definition from Dockerfile
+2025-08-22T01:32:32.6285775Z #1 transferring dockerfile: 2B done
+2025-08-22T01:32:32.6286391Z #1 DONE 0.0s
+2025-08-22T01:32:32.6309694Z ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+2025-08-22T01:32:32.6402761Z ##[error]buildx failed with: ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
